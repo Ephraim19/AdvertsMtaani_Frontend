@@ -8,7 +8,7 @@
 }
 
 .App-nav {
-  height: 125px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -25,4 +25,13 @@
 .App-info {
   color: rgb(220, 22, 22);
   font-weight: bold;
+}
+
+section{
+  padding: 20px;
+}
+
+.App-motto {
+text-align: center;
+text-shadow: 2px 4px 4px rgb(3, 101, 200);
 }
