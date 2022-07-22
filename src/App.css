@@ -71,7 +71,7 @@ text-shadow: 2px 4px 4px rgb(3, 101, 200);
 }
 
 h3 {
-  color: blue;
+  color: blueviolet;
 }
 
 .App-footer {
@@ -84,4 +84,10 @@ h3 {
   padding: 20px;
   text-align: center;
   font-weight: bold;
+}
+button{
+  background-color: blueviolet;
+  padding: 7px 25px;
+  border: none;
+  cursor: pointer;
 }

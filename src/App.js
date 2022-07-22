@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Motto />
-      <About title = 'About Us' info = 'We are a revolutionary marketing and advertising agency that focuses on last mile streets. We are located in Kahawa west,Ruiru,Kikuyu, Kiambu and we are still growing' />
+      <About title = 'About Us' info = 'We are a revolutionary marketing and advertising agency based in Kenya that focuses on last mile streets. We are located in Kahawa west,Ruiru,Kikuyu, Kiambu and we are still growing' />
       <About title = 'Contact Us' info= 'Email: machayoephraim@gmail.com' />
       <Pricing />
       <Footer />
