@@ -35,3 +35,14 @@ section{
 text-align: center;
 text-shadow: 2px 4px 4px rgb(3, 101, 200);
 }
+
+.App-card {
+  box-shadow: 2px 4px 8px 2px rgba(89, 111, 234, 0.2);
+  transition: 0.9s;
+  margin: 0 40px;
+}
+
+.Card-info {
+  text-align: center;
+}
+
