@@ -1,13 +1,11 @@
 import React from 'react'
 
-const About = () => {
+const About = (props) => {
   return (
     <section className='App-card'>
         <div className='Card-info' >
-            <h3>ABOUT US</h3>
-            <p>We are a revolutionary marketing and advertising agency that focuses on
-                last mile streets.
-            </p>
+            <h3>{props.title}</h3>
+            <p>{props.info}</p>
         </div>
     </section>
   )
