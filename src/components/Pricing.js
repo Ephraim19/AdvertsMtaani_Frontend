@@ -7,33 +7,22 @@ const Pricing = () => {
         <h3>Pricing</h3>
       </div>
       <div className="Price-nav">
-        <div className="Price-card">
-          <div className="Price-info">
-            <h4> Solo plan.</h4>
-            <p>Ksh 150 for 15 mins.</p>
-            <p>Upto 700 impressions.</p>
-            <p>This plan is suitable for individual people offering various services.</p>
-          </div>
-        </div>
+      
 
         <div className="Price-card">
           <div className="Price-info">
-            <h4>Ndovu plan.</h4>
-            <p>Ksh 2500 per month.</p>
-            <p>Upto 100 000 impressions.</p>
-            <p>This plan is suitable for small and medium enterprises looking to promote their businesses.</p>
-          </div>
-        </div>
-
-        <div className="Price-card">
-          <div className="Price-info">
-            <h4>Simba plan </h4>
-            <p>Ksh 8000 per month.</p>
-            <p>Upto 500 000 impressions.</p>
-            <p>Its suitable for major brands looking to promote their products.</p>
+            <h4>SME plan.</h4>
+            <p>Ksh 10000 per month.</p>
+            <p>Upto 100 000 impressions. Each video limited to 15 sec</p>
+            <p>
+              This plan is suitable for small and medium enterprises looking to
+              promote their businesses.
+            </p>
+            <p>Maximum of 3 ads</p>
           </div>
         </div>
       </div>
+      <p>Enjoy your way to the top</p>
     </div>
   );
 };

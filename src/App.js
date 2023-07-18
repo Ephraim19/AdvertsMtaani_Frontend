@@ -1,19 +1,21 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Motto from './components/Motto';
-import About from './components/About';
-import Pricing from './components/Pricing';
-import Footer from './components/Footer';
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Login from "./login_components/Login";
+import BusinessForm from "./login_components/BusinessForm";
+import { CookiesProvider } from "react-cookie";
+
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Motto />
-      <About title = 'About Us' info = 'We are a revolutionary marketing and advertising agency based in Kenya that focuses on last mile streets. We are located in Kahawa west,Ruiru,Kikuyu, Kiambu and we are still growing' />
-      <About title = 'Contact Us' info= 'Email: machayoephraim@gmail.com' />
-      <Pricing />
-      <Footer />
-    </div>
+    <CookiesProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/account" element={<Login />} />
+          <Route path="/information" element={<BusinessForm />} />
+        </Routes>
+      </BrowserRouter>
+    </CookiesProvider>
   );
 }
 
